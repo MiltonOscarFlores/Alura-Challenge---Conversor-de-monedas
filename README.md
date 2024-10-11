@@ -2,7 +2,7 @@
 
 Este es un proyecto de consola en Java que realiza conversiones de divisas utilizando una API de tasas de cambio. Los usuarios pueden seleccionar entre diferentes pares de divisas y obtener el resultado de la conversión en tiempo real.
 
-![imagen1](https://github.com/user-attachments/assets/bd54cc0b-90fa-4e04-ab83-e5c8625a7e34)
+![Captura de pantalla 2024-10-11 205104](https://github.com/user-attachments/assets/ff2742ad-29f8-4f66-aeb8-08b5295fe725)
 
 ## Características
 
