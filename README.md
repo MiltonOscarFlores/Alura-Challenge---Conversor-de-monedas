@@ -1,6 +1,8 @@
 # Conversor de Divisas
 
-Una aplicación para convertir entre diferentes monedas de manera rápida. Este challenge fue desarrollado como parte de la formación Backend Java de Alura/Oracle.
+Este es un proyecto de consola en Java que realiza conversiones de divisas utilizando una API de tasas de cambio. Los usuarios pueden seleccionar entre diferentes pares de divisas y obtener el resultado de la conversión en tiempo real.
+
+ Este challenge fue desarrollado como parte de la formación Backend Java de Alura/Oracle.
 
 ![Captura de pantalla 2024-10-11 205156](https://github.com/user-attachments/assets/548a0b02-88f6-4213-95bb-ecfe0704c04b)
 
@@ -22,19 +24,21 @@ Permite seleccionar el tipo de conversión y la cantidad a convertir. Soporta la
 - Guarda un `historial.txt` para ver el historial de consultas realizadas.
 
 
-## Dependencias
+## Instalación
 
-Este proyecto utiliza las siguientes dependencias de Maven:
+1. Configura Maven para instalar las dependencias:
 
-- **Gson** para el manejo de JSON:
-
-    ```xml
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>2.10.1</version>
-    </dependency>
+    ```bash
+    mvn install
     ```
+
+2. Modifica el archivo `ConsultaApi.java` para agregar tu propia clave de la API en la variable `apiKey`:
+
+    ```java
+    private final String apiKey = "TU_CLAVE_API";
+    ```
+
+    Puedes obtener una clave gratuita desde [ExchangeRate-API](https://www.exchangerate-api.com/).
 
 
 ## Licencia
