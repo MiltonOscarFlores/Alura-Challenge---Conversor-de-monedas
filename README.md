@@ -1,50 +1,26 @@
 # Conversor de Divisas
 
-Este es un proyecto de consola en Java que realiza conversiones de divisas utilizando una API de tasas de cambio. Los usuarios pueden seleccionar entre diferentes pares de divisas y obtener el resultado de la conversión en tiempo real.
+Una aplicación para convertir entre diferentes monedas de manera rápida. Este challenge fue desarrollado como parte de la formación Backend Java de Alura/Oracle.
 
 ![Captura de pantalla 2024-10-11 205156](https://github.com/user-attachments/assets/548a0b02-88f6-4213-95bb-ecfe0704c04b)
 
+
+## Funcionalidad
+
+Permite seleccionar el tipo de conversión y la cantidad a convertir. Soporta las siguientes conversiones:
+
+- Dólar a Peso Argentino (USD a ARS)
+- Peso Argentino a Dólar (ARS a USD)
+- Dólar a Real Brasileño (USD a BRL)
+- Y más...
+
 ## Características
 
-- Conversión entre diferentes divisas utilizando la [ExchangeRate-API](https://www.exchangerate-api.com/).
-- Permite convertir entre varias monedas comunes como USD, ARS, BRL, COP, entre otras.
-- Interfaz de consola simple y fácil de usar.
+- Conversión instantánea.
+- Interfaz simple.
+- Tasas de cambio actualizadas.
+- Guarda un `historial.txt` para ver el historial de consultas realizadas.
 
-## Requisitos
-
-- **Java 21** o superior
-- **Maven** para la gestión de dependencias
-
-## Instalación
-
-1. Clona el repositorio:
-
-    ```bash
-    git clone https://github.com/tuusuario/conversor-divisas.git
-    cd conversor-divisas
-    ```
-
-2. Configura Maven para instalar las dependencias:
-
-    ```bash
-    mvn install
-    ```
-
-3. Modifica el archivo `ConsultaApi.java` para agregar tu propia clave de la API en la variable `apiKey`:
-
-    ```java
-    private final String apiKey = "TU_CLAVE_API";
-    ```
-
-    Puedes obtener una clave gratuita desde [ExchangeRate-API](https://www.exchangerate-api.com/).
-
-## Uso
-
-1. Ejecuta el programa desde tu IDE o con el siguiente comando desde la terminal:
-
-    ```bash
-    mvn exec:java -Dexec.mainClass="org.example.Main"
-    ```
 
 ## Dependencias
 
@@ -60,9 +36,6 @@ Este proyecto utiliza las siguientes dependencias de Maven:
     </dependency>
     ```
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si tienes alguna mejora o corrección, puedes abrir un _pull request_ o crear un _issue_.
 
 ## Licencia
 
